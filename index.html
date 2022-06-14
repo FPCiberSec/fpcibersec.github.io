@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ciberseguridad IES Rafael Alberi</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+  <div class="container atropos-wrap">
+    <div href="#" class="atropos atropos-banner">
+      <div class="atropos-scale">
+        <div class="atropos-rotate">
+          <div class="atropos-inner">
+            <img class="atropos-banner-spacer" src="./i/escudo.svg">
+            <img data-atropos-offset="-4.5" src="./i/escudo.svg">
+            <img data-atropos-offset="-2.5" src="./i/ala-trasera.svg">
+            <img data-atropos-offset="0" src="./i/cola.svg">
+            <img data-atropos-offset="2" src="./i/media-paloma.svg">
+            <img data-atropos-offset="4" src="./i/ala-delantera.svg">
+            <img data-atropos-offset="5" src="./i/texto-ciberseguridad.svg">
+			<img data-atropos-offset="5.5" src="./i/texto-alberties.svg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="learn-more"><a href="https://fpcibersec.github.io/informacion/">
+    <span class="circle" aria-hidden="true">
+    <span class="icon arrow"></span>
+    </span>
+    <span class="button-text">Infórmate</span></a>
+  </button>
+  <script type="module">
+    import Atropos from 'esm/atropos.esm';
+    import 'atropos.css';
+
+    window.atropos = new Atropos({
+      el: document.querySelectorAll('.atropos')[0],
+      shadowScale: 1.05,
+      alwaysActive: true,
+    });
+  </script>
+</body>
+
+</html>
